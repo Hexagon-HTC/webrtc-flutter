@@ -164,7 +164,7 @@ static FlutterWebRTCPlugin *sharedSingleton;
   }
 
   NSDictionary* fieldTrials = @{kRTCFieldTrialUseNWPathMonitor : kRTCFieldTrialEnabledValue};
-  RTCInitFieldTrialDictionary(fieldTrials);
+  // RTCInitFieldTrialDictionary(fieldTrials);
 
   self.peerConnections = [NSMutableDictionary new];
   self.localStreams = [NSMutableDictionary new];
