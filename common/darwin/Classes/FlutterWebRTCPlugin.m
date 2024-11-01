@@ -153,7 +153,7 @@ void postEvent(FlutterEventSink _Nonnull sink, id _Nullable event) {
   }
 
   NSDictionary* fieldTrials = @{kRTCFieldTrialUseNWPathMonitor : kRTCFieldTrialEnabledValue};
-  RTCInitFieldTrialDictionary(fieldTrials);
+  // RTCInitFieldTrialDictionary(fieldTrials);
 
   self.peerConnections = [NSMutableDictionary new];
   self.localStreams = [NSMutableDictionary new];
